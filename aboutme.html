@@ -7,14 +7,9 @@
     margin: 0;
   }
   .bg {    
-   
-    height: 100%;
-    
-    display: flex;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
     
     &:nth-child(1){
       background-image: url("background.jpg");
@@ -24,9 +19,15 @@
     }
     &:nth-child(3){
       background-image: url("IMG_0338.jpg");
-    }
-    
+    } 
   }
+  .bg {
+    display: flex;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
   h1 {
     font: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
     color:#ffffff;
